@@ -1,0 +1,55 @@
+*{
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+}
+.social-icon-div{
+    width: 100px;
+}
+.bg-img-div{
+    background-image: url("pizzacheesy.jpg");
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    /* background-repeat: no-repeat; */
+    height: 87vh;
+}
+.font-main-bg{
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-main-div{
+    height: 50vh;
+}
+.design-main-bg{
+    height:10px;
+    width:80%;
+}
+.carousel-item img{
+    height: 500px;
+}
+.gallery {
+    height: 300px;
+}
+
+.left-big {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.small-img {
+    height: 95px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mid-img {
+    height: 140px;
+    object-fit: cover;
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .links{
+        font-size: 10px;
+    }
+}
